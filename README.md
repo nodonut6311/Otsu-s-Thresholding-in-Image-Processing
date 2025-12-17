@@ -40,6 +40,18 @@ This notebook focuses on **data-driven threshold selection** by:
 
 ---
 
+## Modules Required 
+```bash
+import cv2
+import pytesseract
+import matplotlib.pyplot as plt
+```
+Define path :
+```bash
+pytesseract.pytesseract.tesseract_cmd = "/usr/bin/tesseract"
+```
+
+---
 ##  Key Concepts Covered
 
 - Grayscale conversion
